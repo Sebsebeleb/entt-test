@@ -1,0 +1,14 @@
+[gd_scene load_steps=3 format=3 uid="uid://dj50s3dre1n5f"]
+
+[ext_resource type="Script" path="res://Scripts/NewScript.cs" id="1_r54gv"]
+[ext_resource type="Script" path="res://Scripts/FpsDisplay.cs" id="2_osbnq"]
+
+[node name="Node2D" type="Node2D"]
+
+[node name="Node2D" type="Node2D" parent="."]
+script = ExtResource("1_r54gv")
+
+[node name="Label" type="Label" parent="."]
+offset_right = 40.0
+offset_bottom = 23.0
+script = ExtResource("2_osbnq")
